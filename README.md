@@ -20,14 +20,37 @@ This repository contains a Python-based application for movie recommendations us
   
 - **Dynamic User Interface:** Easy-to-use interface powered by Streamlit.
 
-## Demo
+## Running the App in Google Colab
 
-You can run the app locally or access it using a public link via ngrok.
+Follow these steps to set up and run the app in Google Colab:
 
-## Installation
+**Step 1: Open Google Colab**
 
-**Prerequisites**
+- Go to [Google Colab](https://colab.research.google.com/)
+- Click on File > New Notebook to create a new notebook.
 
--Python 3.7 or higher
+**Step 2: Install Dependencies**
 
--pip (Python package manager)
+In the first cell, run the following command to install the required libraries:
+
+!pip install streamlit sentence-transformers chromadb scikit-learn pandas pyngrok
+
+**Step 3: Write the Application Code**
+
+**Step 4: Run the Streamlit App**
+
+**Step 5: Access the App**
+
+After running the above command, you will see a URL similar to https://<random-string>.loca.lt/. Click on this link to open the Streamlit app in your browser.
+
+**Optional: Ngrok Setup**
+
+If you prefer using ngrok instead of localtunnel, follow these steps:
+
+- Sign up for an ngrok account and get your auth token from the [ngrok dashboard](https://dashboard.ngrok.com/get-started/your-authtoken)
+
+- Run the following command to set your auth token:
+ !ngrok authtoken <your_auth_token>
+
+- Replace the localtunnel command with:
+ !streamlit run app.py & ngrok http 8501
