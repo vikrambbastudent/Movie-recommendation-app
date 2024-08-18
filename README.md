@@ -15,5 +15,7 @@ This repository contains a Python-based application for movie recommendations us
 ## Features
 
 - **Semantic Search:** Get movie recommendations by describing the kind of movie you’re in the mood for.
--**Advanced Filtering:** Refine your recommendations based on IMDb scores and vote counts.
--**Dynamic User Interface:** Easy-to-use interface powered by Streamlit.
+  
+- **Advanced Filtering:** Refine your recommendations based on IMDb scores and vote counts.
+  
+- **Dynamic User Interface:** Easy-to-use interface powered by Streamlit.
