@@ -50,7 +50,11 @@ If you prefer using ngrok instead of localtunnel, follow these steps:
 - Sign up for an ngrok account and get your auth token from the [ngrok dashboard](https://dashboard.ngrok.com/get-started/your-authtoken)
 
 - Run the following command to set your auth token:
+<pre>
+```python
  !ngrok authtoken <your_auth_token>
+   ```
+</pre>
 
 - Replace the localtunnel command with:
  !streamlit run app.py & ngrok http 8501
