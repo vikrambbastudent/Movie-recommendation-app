@@ -8,7 +8,7 @@ This repository contains a Python-based application for movie recommendations us
 - Demo
 - Installation
 - Usage
-- Dataset ('https://raw.githubusercontent.com/datum-oracle/netflix-movie-titles/main/titles.csv')
+- [Dataset](https://raw.githubusercontent.com/datum-oracle/netflix-movie-titles/main/titles.csv)
 - Technologies Used
 - Future Improvements
 
