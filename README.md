@@ -51,9 +51,7 @@ If you prefer using ngrok instead of localtunnel, follow these steps:
 
 - Run the following command to set your auth token:
 <pre>
-```python
  !ngrok authtoken <your_auth_token>
-   ```
 </pre>
 
 - Replace the localtunnel command with:
