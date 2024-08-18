@@ -19,3 +19,15 @@ This repository contains a Python-based application for movie recommendations us
 - **Advanced Filtering:** Refine your recommendations based on IMDb scores and vote counts.
   
 - **Dynamic User Interface:** Easy-to-use interface powered by Streamlit.
+
+## Demo
+
+You can run the app locally or access it using a public link via ngrok.
+
+## Installation
+
+**Prerequisites**
+
+-Python 3.7 or higher
+
+-pip (Python package manager)
